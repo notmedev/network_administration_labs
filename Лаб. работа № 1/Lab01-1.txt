@@ -1,0 +1,49 @@
+No.     Time           Source                Destination           Protocol Length Info
+    695 5.290725       45.137.66.176         128.119.245.12        HTTP     518    GET /wireshark-labs/INTRO-wireshark-file1.html HTTP/1.1 
+
+Frame 695: 518 bytes on wire (4144 bits), 518 bytes captured (4144 bits) on interface \Device\NPF_{9D8721B6-2FF5-444D-AC76-4B704A1A1780}, id 0
+Ethernet II, Src: 52:a1:00:3f:fb:92 (52:a1:00:3f:fb:92), Dst: HuaweiTe_a1:c5:a9 (18:de:d7:a1:c5:a9)
+Internet Protocol Version 4, Src: 45.137.66.176, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 51915, Dst Port: 80, Seq: 1, Ack: 1, Len: 464
+Hypertext Transfer Protocol
+    GET /wireshark-labs/INTRO-wireshark-file1.html HTTP/1.1\r\n
+    Host: gaia.cs.umass.edu\r\n
+    Connection: keep-alive\r\n
+    Upgrade-Insecure-Requests: 1\r\n
+    User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36\r\n
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    Accept-Language: en-US,en;q=0.9\r\n
+    \r\n
+    [Full request URI: http://gaia.cs.umass.edu/wireshark-labs/INTRO-wireshark-file1.html]
+    [HTTP request 1/2]
+    [Response in frame: 707]
+    [Next request in frame: 734]
+
+No.     Time           Source                Destination           Protocol Length Info
+    707 5.378202       128.119.245.12        45.137.66.176         HTTP     491    HTTP/1.1 200 OK  (text/html)
+
+Frame 707: 491 bytes on wire (3928 bits), 491 bytes captured (3928 bits) on interface \Device\NPF_{9D8721B6-2FF5-444D-AC76-4B704A1A1780}, id 0
+Ethernet II, Src: HuaweiTe_a1:c5:a9 (18:de:d7:a1:c5:a9), Dst: 52:a1:00:3f:fb:92 (52:a1:00:3f:fb:92)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 45.137.66.176
+Transmission Control Protocol, Src Port: 80, Dst Port: 51915, Seq: 1, Ack: 465, Len: 437
+Hypertext Transfer Protocol
+    HTTP/1.1 200 OK\r\n
+    Date: Wed, 10 Jun 2020 15:19:14 GMT\r\n
+    Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.4.6 mod_perl/2.0.11 Perl/v5.16.3\r\n
+    Last-Modified: Wed, 10 Jun 2020 05:59:03 GMT\r\n
+    ETag: "51-5a7b48a85fdd7"\r\n
+    Accept-Ranges: bytes\r\n
+    Content-Length: 81\r\n
+    Keep-Alive: timeout=5, max=100\r\n
+    Connection: Keep-Alive\r\n
+    Content-Type: text/html; charset=UTF-8\r\n
+    \r\n
+    [HTTP response 1/2]
+    [Time since request: 0.087477000 seconds]
+    [Request in frame: 695]
+    [Next request in frame: 734]
+    [Next response in frame: 747]
+    [Request URI: http://gaia.cs.umass.edu/wireshark-labs/INTRO-wireshark-file1.html]
+    File Data: 81 bytes
+Line-based text data: text/html (3 lines)

@@ -1,0 +1,494 @@
+No.     Time           Source                Destination           Protocol Length Info
+   1151 6.164924       45.137.66.176         128.119.245.12        HTTP     543    GET /wireshark-labs/HTTP-wireshark-file4.html HTTP/1.1 
+
+Frame 1151: 543 bytes on wire (4344 bits), 543 bytes captured (4344 bits) on interface \Device\NPF_{9D8721B6-2FF5-444D-AC76-4B704A1A1780}, id 0
+Ethernet II, Src: 52:a1:00:3f:fb:92 (52:a1:00:3f:fb:92), Dst: HuaweiTe_a1:c5:a9 (18:de:d7:a1:c5:a9)
+Internet Protocol Version 4, Src: 45.137.66.176, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 51963, Dst Port: 80, Seq: 1, Ack: 1, Len: 489
+    Source Port: 51963
+    Destination Port: 80
+    [Stream index: 37]
+    [TCP Segment Len: 489]
+    Sequence number: 1    (relative sequence number)
+    Sequence number (raw): 1853650268
+    [Next sequence number: 490    (relative sequence number)]
+    Acknowledgment number: 1    (relative ack number)
+    Acknowledgment number (raw): 2305748812
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 513
+    [Calculated window size: 131328]
+    [Window size scaling factor: 256]
+    Checksum: 0xe7c0 [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [iRTT: 0.082512000 seconds]
+        [Bytes in flight: 489]
+        [Bytes sent since last PSH flag: 489]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 0.084147000 seconds]
+        [Time since previous frame in this TCP stream: 0.001635000 seconds]
+    TCP payload (489 bytes)
+Hypertext Transfer Protocol
+    GET /wireshark-labs/HTTP-wireshark-file4.html HTTP/1.1\r\n
+        [Expert Info (Chat/Sequence): GET /wireshark-labs/HTTP-wireshark-file4.html HTTP/1.1\r\n]
+            [GET /wireshark-labs/HTTP-wireshark-file4.html HTTP/1.1\r\n]
+            [Severity level: Chat]
+            [Group: Sequence]
+        Request Method: GET
+        Request URI: /wireshark-labs/HTTP-wireshark-file4.html
+        Request Version: HTTP/1.1
+    Host: gaia.cs.umass.edu\r\n
+    Connection: keep-alive\r\n
+    Cache-Control: max-age=0\r\n
+    Upgrade-Insecure-Requests: 1\r\n
+    User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36\r\n
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    Accept-Language: en-US,en;q=0.9\r\n
+    \r\n
+    [Full request URI: http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file4.html]
+    [HTTP request 1/2]
+    [Response in frame: 1170]
+    [Next request in frame: 1225]
+
+No.     Time           Source                Destination           Protocol Length Info
+   1170 6.264885       128.119.245.12        45.137.66.176         HTTP     1126   HTTP/1.1 200 OK  (text/html)
+
+Frame 1170: 1126 bytes on wire (9008 bits), 1126 bytes captured (9008 bits) on interface \Device\NPF_{9D8721B6-2FF5-444D-AC76-4B704A1A1780}, id 0
+Ethernet II, Src: HuaweiTe_a1:c5:a9 (18:de:d7:a1:c5:a9), Dst: 52:a1:00:3f:fb:92 (52:a1:00:3f:fb:92)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 45.137.66.176
+Transmission Control Protocol, Src Port: 80, Dst Port: 51963, Seq: 1, Ack: 490, Len: 1072
+    Source Port: 80
+    Destination Port: 51963
+    [Stream index: 37]
+    [TCP Segment Len: 1072]
+    Sequence number: 1    (relative sequence number)
+    Sequence number (raw): 2305748812
+    [Next sequence number: 1073    (relative sequence number)]
+    Acknowledgment number: 490    (relative ack number)
+    Acknowledgment number (raw): 1853650757
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 237
+    [Calculated window size: 30336]
+    [Window size scaling factor: 128]
+    Checksum: 0xa52d [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [iRTT: 0.082512000 seconds]
+        [Bytes in flight: 1072]
+        [Bytes sent since last PSH flag: 1072]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 0.184108000 seconds]
+        [Time since previous frame in this TCP stream: 0.017722000 seconds]
+    TCP payload (1072 bytes)
+Hypertext Transfer Protocol
+    HTTP/1.1 200 OK\r\n
+        [Expert Info (Chat/Sequence): HTTP/1.1 200 OK\r\n]
+            [HTTP/1.1 200 OK\r\n]
+            [Severity level: Chat]
+            [Group: Sequence]
+        Response Version: HTTP/1.1
+        Status Code: 200
+        [Status Code Description: OK]
+        Response Phrase: OK
+    Date: Wed, 10 Jun 2020 22:19:42 GMT\r\n
+    Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.4.6 mod_perl/2.0.11 Perl/v5.16.3\r\n
+    Last-Modified: Wed, 10 Jun 2020 05:59:03 GMT\r\n
+    ETag: "2ca-5a7b48a87af72"\r\n
+    Accept-Ranges: bytes\r\n
+    Content-Length: 714\r\n
+        [Content length: 714]
+    Keep-Alive: timeout=5, max=100\r\n
+    Connection: Keep-Alive\r\n
+    Content-Type: text/html; charset=UTF-8\r\n
+    \r\n
+    [HTTP response 1/2]
+    [Time since request: 0.099961000 seconds]
+    [Request in frame: 1151]
+    [Next request in frame: 1225]
+    [Next response in frame: 1251]
+    [Request URI: http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file4.html]
+    File Data: 714 bytes
+Line-based text data: text/html (17 lines)
+
+No.     Time           Source                Destination           Protocol Length Info
+   1225 6.771299       45.137.66.176         128.119.245.12        HTTP     449    GET /pearson.png HTTP/1.1 
+
+Frame 1225: 449 bytes on wire (3592 bits), 449 bytes captured (3592 bits) on interface \Device\NPF_{9D8721B6-2FF5-444D-AC76-4B704A1A1780}, id 0
+Ethernet II, Src: 52:a1:00:3f:fb:92 (52:a1:00:3f:fb:92), Dst: HuaweiTe_a1:c5:a9 (18:de:d7:a1:c5:a9)
+Internet Protocol Version 4, Src: 45.137.66.176, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 51963, Dst Port: 80, Seq: 490, Ack: 1073, Len: 395
+    Source Port: 51963
+    Destination Port: 80
+    [Stream index: 37]
+    [TCP Segment Len: 395]
+    Sequence number: 490    (relative sequence number)
+    Sequence number (raw): 1853650757
+    [Next sequence number: 885    (relative sequence number)]
+    Acknowledgment number: 1073    (relative ack number)
+    Acknowledgment number (raw): 2305749884
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 509
+    [Calculated window size: 130304]
+    [Window size scaling factor: 256]
+    Checksum: 0xe762 [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [iRTT: 0.082512000 seconds]
+        [Bytes in flight: 395]
+        [Bytes sent since last PSH flag: 395]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 0.690522000 seconds]
+        [Time since previous frame in this TCP stream: 0.471362000 seconds]
+    TCP payload (395 bytes)
+Hypertext Transfer Protocol
+    GET /pearson.png HTTP/1.1\r\n
+        [Expert Info (Chat/Sequence): GET /pearson.png HTTP/1.1\r\n]
+            [GET /pearson.png HTTP/1.1\r\n]
+            [Severity level: Chat]
+            [Group: Sequence]
+        Request Method: GET
+        Request URI: /pearson.png
+        Request Version: HTTP/1.1
+    Host: gaia.cs.umass.edu\r\n
+    Connection: keep-alive\r\n
+    User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36\r\n
+    Accept: image/webp,image/apng,image/*,*/*;q=0.8\r\n
+    Referer: http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file4.html\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    Accept-Language: en-US,en;q=0.9\r\n
+    \r\n
+    [Full request URI: http://gaia.cs.umass.edu/pearson.png]
+    [HTTP request 2/2]
+    [Prev request in frame: 1151]
+    [Response in frame: 1251]
+
+No.     Time           Source                Destination           Protocol Length Info
+   1251 6.857709       128.119.245.12        45.137.66.176         HTTP     744    HTTP/1.1 200 OK  (PNG)
+
+Frame 1251: 744 bytes on wire (5952 bits), 744 bytes captured (5952 bits) on interface \Device\NPF_{9D8721B6-2FF5-444D-AC76-4B704A1A1780}, id 0
+Ethernet II, Src: HuaweiTe_a1:c5:a9 (18:de:d7:a1:c5:a9), Dst: 52:a1:00:3f:fb:92 (52:a1:00:3f:fb:92)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 45.137.66.176
+Transmission Control Protocol, Src Port: 80, Dst Port: 51963, Seq: 3993, Ack: 885, Len: 690
+    Source Port: 80
+    Destination Port: 51963
+    [Stream index: 37]
+    [TCP Segment Len: 690]
+    Sequence number: 3993    (relative sequence number)
+    Sequence number (raw): 2305752804
+    [Next sequence number: 4683    (relative sequence number)]
+    Acknowledgment number: 885    (relative ack number)
+    Acknowledgment number (raw): 1853651152
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 245
+    [Calculated window size: 31360]
+    [Window size scaling factor: 128]
+    Checksum: 0x2934 [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [iRTT: 0.082512000 seconds]
+        [Bytes in flight: 690]
+        [Bytes sent since last PSH flag: 3610]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 0.776932000 seconds]
+        [Time since previous frame in this TCP stream: 0.000460000 seconds]
+    TCP payload (690 bytes)
+    TCP segment data (690 bytes)
+[3 Reassembled TCP Segments (3610 bytes): #1248(1460), #1249(1460), #1251(690)]
+    [Frame: 1248, payload: 0-1459 (1460 bytes)]
+    [Frame: 1249, payload: 1460-2919 (1460 bytes)]
+    [Frame: 1251, payload: 2920-3609 (690 bytes)]
+    [Segment count: 3]
+    [Reassembled TCP length: 3610]
+    [Reassembled TCP Data: 485454502f312e3120323030204f4b0d0a446174653a2057…]
+Hypertext Transfer Protocol
+    HTTP/1.1 200 OK\r\n
+        [Expert Info (Chat/Sequence): HTTP/1.1 200 OK\r\n]
+            [HTTP/1.1 200 OK\r\n]
+            [Severity level: Chat]
+            [Group: Sequence]
+        Response Version: HTTP/1.1
+        Status Code: 200
+        [Status Code Description: OK]
+        Response Phrase: OK
+    Date: Wed, 10 Jun 2020 22:19:43 GMT\r\n
+    Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.4.6 mod_perl/2.0.11 Perl/v5.16.3\r\n
+    Last-Modified: Sat, 06 Aug 2016 10:08:14 GMT\r\n
+    ETag: "cc3-539645c7f1ee7"\r\n
+    Accept-Ranges: bytes\r\n
+    Content-Length: 3267\r\n
+        [Content length: 3267]
+    Keep-Alive: timeout=5, max=99\r\n
+    Connection: Keep-Alive\r\n
+    Content-Type: image/png\r\n
+    \r\n
+    [HTTP response 2/2]
+    [Time since request: 0.086410000 seconds]
+    [Prev request in frame: 1151]
+    [Prev response in frame: 1170]
+    [Request in frame: 1225]
+    [Request URI: http://gaia.cs.umass.edu/pearson.png]
+    File Data: 3267 bytes
+Portable Network Graphics
+
+No.     Time           Source                Destination           Protocol Length Info
+   1258 6.901053       45.137.66.176         128.119.245.12        HTTP     463    GET /~kurose/cover_5th_ed.jpg HTTP/1.1 
+
+Frame 1258: 463 bytes on wire (3704 bits), 463 bytes captured (3704 bits) on interface \Device\NPF_{9D8721B6-2FF5-444D-AC76-4B704A1A1780}, id 0
+Ethernet II, Src: 52:a1:00:3f:fb:92 (52:a1:00:3f:fb:92), Dst: HuaweiTe_a1:c5:a9 (18:de:d7:a1:c5:a9)
+Internet Protocol Version 4, Src: 45.137.66.176, Dst: 128.119.245.12
+Transmission Control Protocol, Src Port: 51964, Dst Port: 80, Seq: 1, Ack: 1, Len: 409
+    Source Port: 51964
+    Destination Port: 80
+    [Stream index: 43]
+    [TCP Segment Len: 409]
+    Sequence number: 1    (relative sequence number)
+    Sequence number (raw): 1449370472
+    [Next sequence number: 410    (relative sequence number)]
+    Acknowledgment number: 1    (relative ack number)
+    Acknowledgment number (raw): 4022765788
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 513
+    [Calculated window size: 131328]
+    [Window size scaling factor: 256]
+    Checksum: 0xe770 [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [iRTT: 0.083895000 seconds]
+        [Bytes in flight: 409]
+        [Bytes sent since last PSH flag: 409]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 0.121300000 seconds]
+        [Time since previous frame in this TCP stream: 0.037405000 seconds]
+    TCP payload (409 bytes)
+Hypertext Transfer Protocol
+    GET /~kurose/cover_5th_ed.jpg HTTP/1.1\r\n
+        [Expert Info (Chat/Sequence): GET /~kurose/cover_5th_ed.jpg HTTP/1.1\r\n]
+            [GET /~kurose/cover_5th_ed.jpg HTTP/1.1\r\n]
+            [Severity level: Chat]
+            [Group: Sequence]
+        Request Method: GET
+        Request URI: /~kurose/cover_5th_ed.jpg
+        Request Version: HTTP/1.1
+    Host: manic.cs.umass.edu\r\n
+    Connection: keep-alive\r\n
+    User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36\r\n
+    Accept: image/webp,image/apng,image/*,*/*;q=0.8\r\n
+    Referer: http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file4.html\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    Accept-Language: en-US,en;q=0.9\r\n
+    \r\n
+    [Full request URI: http://manic.cs.umass.edu/~kurose/cover_5th_ed.jpg]
+    [HTTP request 1/1]
+    [Response in frame: 1386]
+
+No.     Time           Source                Destination           Protocol Length Info
+   1386 7.165227       128.119.245.12        45.137.66.176         HTTP     631    HTTP/1.1 200 OK  (JPEG JFIF image)
+
+Frame 1386: 631 bytes on wire (5048 bits), 631 bytes captured (5048 bits) on interface \Device\NPF_{9D8721B6-2FF5-444D-AC76-4B704A1A1780}, id 0
+Ethernet II, Src: HuaweiTe_a1:c5:a9 (18:de:d7:a1:c5:a9), Dst: 52:a1:00:3f:fb:92 (52:a1:00:3f:fb:92)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 45.137.66.176
+Transmission Control Protocol, Src Port: 80, Dst Port: 51964, Seq: 100741, Ack: 410, Len: 577
+    Source Port: 80
+    Destination Port: 51964
+    [Stream index: 43]
+    [TCP Segment Len: 577]
+    Sequence number: 100741    (relative sequence number)
+    Sequence number (raw): 4022866528
+    [Next sequence number: 101318    (relative sequence number)]
+    Acknowledgment number: 410    (relative ack number)
+    Acknowledgment number (raw): 1449370881
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 237
+    [Calculated window size: 30336]
+    [Window size scaling factor: 128]
+    Checksum: 0x36e9 [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [iRTT: 0.083895000 seconds]
+        [Bytes in flight: 13717]
+        [Bytes sent since last PSH flag: 101317]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 0.385474000 seconds]
+        [Time since previous frame in this TCP stream: 0.000013000 seconds]
+    TCP payload (577 bytes)
+    TCP segment data (577 bytes)
+[70 Reassembled TCP Segments (101317 bytes): #1270(1460), #1271(1460), #1273(1460), #1274(1460), #1275(1460), #1276(1460), #1278(1460), #1279(1460), #1281(1460), #1282(1460), #1295(1460), #1296(1460), #1297(1460), #1299(1460), #1301(1460), ]
+    [Frame: 1270, payload: 0-1459 (1460 bytes)]
+    [Frame: 1271, payload: 1460-2919 (1460 bytes)]
+    [Frame: 1273, payload: 2920-4379 (1460 bytes)]
+    [Frame: 1274, payload: 4380-5839 (1460 bytes)]
+    [Frame: 1275, payload: 5840-7299 (1460 bytes)]
+    [Frame: 1276, payload: 7300-8759 (1460 bytes)]
+    [Frame: 1278, payload: 8760-10219 (1460 bytes)]
+    [Frame: 1279, payload: 10220-11679 (1460 bytes)]
+    [Frame: 1281, payload: 11680-13139 (1460 bytes)]
+    [Frame: 1282, payload: 13140-14599 (1460 bytes)]
+    [Frame: 1295, payload: 14600-16059 (1460 bytes)]
+    [Frame: 1296, payload: 16060-17519 (1460 bytes)]
+    [Frame: 1297, payload: 17520-18979 (1460 bytes)]
+    [Frame: 1299, payload: 18980-20439 (1460 bytes)]
+    [Frame: 1301, payload: 20440-21899 (1460 bytes)]
+    [Frame: 1302, payload: 21900-23359 (1460 bytes)]
+    [Frame: 1304, payload: 23360-24819 (1460 bytes)]
+    [Frame: 1305, payload: 24820-26279 (1460 bytes)]
+    [Frame: 1307, payload: 26280-27739 (1460 bytes)]
+    [Frame: 1308, payload: 27740-29199 (1460 bytes)]
+    [Frame: 1310, payload: 29200-30659 (1460 bytes)]
+    [Frame: 1311, payload: 30660-32119 (1460 bytes)]
+    [Frame: 1313, payload: 32120-33579 (1460 bytes)]
+    [Frame: 1314, payload: 33580-35039 (1460 bytes)]
+    [Frame: 1316, payload: 35040-36499 (1460 bytes)]
+    [Frame: 1317, payload: 36500-37959 (1460 bytes)]
+    [Frame: 1319, payload: 37960-39419 (1460 bytes)]
+    [Frame: 1320, payload: 39420-40879 (1460 bytes)]
+    [Frame: 1322, payload: 40880-42339 (1460 bytes)]
+    [Frame: 1323, payload: 42340-43799 (1460 bytes)]
+    [Frame: 1332, payload: 43800-45259 (1460 bytes)]
+    [Frame: 1333, payload: 45260-46719 (1460 bytes)]
+    [Frame: 1335, payload: 46720-48179 (1460 bytes)]
+    [Frame: 1336, payload: 48180-49639 (1460 bytes)]
+    [Frame: 1338, payload: 49640-51099 (1460 bytes)]
+    [Frame: 1339, payload: 51100-52559 (1460 bytes)]
+    [Frame: 1341, payload: 52560-54019 (1460 bytes)]
+    [Frame: 1342, payload: 54020-55479 (1460 bytes)]
+    [Frame: 1344, payload: 55480-56939 (1460 bytes)]
+    [Frame: 1345, payload: 56940-58399 (1460 bytes)]
+    [Frame: 1347, payload: 58400-59859 (1460 bytes)]
+    [Frame: 1348, payload: 59860-61319 (1460 bytes)]
+    [Frame: 1350, payload: 61320-62779 (1460 bytes)]
+    [Frame: 1351, payload: 62780-64239 (1460 bytes)]
+    [Frame: 1353, payload: 64240-65699 (1460 bytes)]
+    [Frame: 1354, payload: 65700-67159 (1460 bytes)]
+    [Frame: 1356, payload: 67160-68619 (1460 bytes)]
+    [Frame: 1357, payload: 68620-70079 (1460 bytes)]
+    [Frame: 1359, payload: 70080-71539 (1460 bytes)]
+    [Frame: 1360, payload: 71540-72999 (1460 bytes)]
+    [Frame: 1362, payload: 73000-74459 (1460 bytes)]
+    [Frame: 1363, payload: 74460-75919 (1460 bytes)]
+    [Frame: 1365, payload: 75920-77379 (1460 bytes)]
+    [Frame: 1366, payload: 77380-78839 (1460 bytes)]
+    [Frame: 1368, payload: 78840-80299 (1460 bytes)]
+    [Frame: 1369, payload: 80300-81759 (1460 bytes)]
+    [Frame: 1371, payload: 81760-83219 (1460 bytes)]
+    [Frame: 1372, payload: 83220-84679 (1460 bytes)]
+    [Frame: 1374, payload: 84680-86139 (1460 bytes)]
+    [Frame: 1375, payload: 86140-87599 (1460 bytes)]
+    [Frame: 1377, payload: 87600-89059 (1460 bytes)]
+    [Frame: 1378, payload: 89060-90519 (1460 bytes)]
+    [Frame: 1379, payload: 90520-91979 (1460 bytes)]
+    [Frame: 1380, payload: 91980-93439 (1460 bytes)]
+    [Frame: 1381, payload: 93440-94899 (1460 bytes)]
+    [Frame: 1382, payload: 94900-96359 (1460 bytes)]
+    [Frame: 1383, payload: 96360-97819 (1460 bytes)]
+    [Frame: 1384, payload: 97820-99279 (1460 bytes)]
+    [Frame: 1385, payload: 99280-100739 (1460 bytes)]
+    [Frame: 1386, payload: 100740-101316 (577 bytes)]
+    [Segment count: 70]
+    [Reassembled TCP length: 101317]
+    [Reassembled TCP Data: 485454502f312e3120323030204f4b0d0a446174653a2057…]
+Hypertext Transfer Protocol
+    HTTP/1.1 200 OK\r\n
+        [Expert Info (Chat/Sequence): HTTP/1.1 200 OK\r\n]
+            [HTTP/1.1 200 OK\r\n]
+            [Severity level: Chat]
+            [Group: Sequence]
+        Response Version: HTTP/1.1
+        Status Code: 200
+        [Status Code Description: OK]
+        Response Phrase: OK
+    Date: Wed, 10 Jun 2020 22:19:43 GMT\r\n
+    Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.4.6 mod_perl/2.0.11 Perl/v5.16.3\r\n
+    Last-Modified: Tue, 15 Sep 2009 18:23:27 GMT\r\n
+    ETag: "18a68-473a1e0e6e5c0"\r\n
+    Accept-Ranges: bytes\r\n
+    Content-Length: 100968\r\n
+        [Content length: 100968]
+    Keep-Alive: timeout=5, max=100\r\n
+    Connection: Keep-Alive\r\n
+    Content-Type: image/jpeg\r\n
+    \r\n
+    [HTTP response 1/1]
+    [Time since request: 0.264174000 seconds]
+    [Request in frame: 1258]
+    [Request URI: http://manic.cs.umass.edu/~kurose/cover_5th_ed.jpg]
+    File Data: 100968 bytes
+JPEG File Interchange Format

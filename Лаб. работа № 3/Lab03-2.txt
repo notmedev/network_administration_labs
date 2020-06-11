@@ -1,0 +1,115 @@
+No.     Time           Source                Destination           Protocol Length Info
+    303 3.553868       45.137.66.176         8.8.8.8               DNS      80     Standard query 0x0001 PTR 8.8.8.8.in-addr.arpa
+
+Frame 303: 80 bytes on wire (640 bits), 80 bytes captured (640 bits) on interface \Device\NPF_{9D8721B6-2FF5-444D-AC76-4B704A1A1780}, id 0
+Ethernet II, Src: 52:a1:00:3f:fb:92 (52:a1:00:3f:fb:92), Dst: HuaweiTe_a1:c5:a9 (18:de:d7:a1:c5:a9)
+Internet Protocol Version 4, Src: 45.137.66.176, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 60664, Dst Port: 53
+Domain Name System (query)
+    Transaction ID: 0x0001
+    Flags: 0x0100 Standard query
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+    [Response In: 304]
+
+No.     Time           Source                Destination           Protocol Length Info
+    304 3.555291       8.8.8.8               45.137.66.176         DNS      104    Standard query response 0x0001 PTR 8.8.8.8.in-addr.arpa PTR dns.google
+
+Frame 304: 104 bytes on wire (832 bits), 104 bytes captured (832 bits) on interface \Device\NPF_{9D8721B6-2FF5-444D-AC76-4B704A1A1780}, id 0
+Ethernet II, Src: HuaweiTe_a1:c5:a9 (18:de:d7:a1:c5:a9), Dst: 52:a1:00:3f:fb:92 (52:a1:00:3f:fb:92)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 45.137.66.176
+User Datagram Protocol, Src Port: 53, Dst Port: 60664
+Domain Name System (response)
+    Transaction ID: 0x0001
+    Flags: 0x8180 Standard query response, No error
+    Questions: 1
+    Answer RRs: 1
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+    Answers
+        8.8.8.8.in-addr.arpa: type PTR, class IN, dns.google
+    [Request In: 303]
+    [Time: 0.001423000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+    305 3.559194       45.137.66.176         8.8.8.8               DNS      71     Standard query 0x0002 A www.mit.edu
+
+Frame 305: 71 bytes on wire (568 bits), 71 bytes captured (568 bits) on interface \Device\NPF_{9D8721B6-2FF5-444D-AC76-4B704A1A1780}, id 0
+Ethernet II, Src: 52:a1:00:3f:fb:92 (52:a1:00:3f:fb:92), Dst: HuaweiTe_a1:c5:a9 (18:de:d7:a1:c5:a9)
+Internet Protocol Version 4, Src: 45.137.66.176, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 60665, Dst Port: 53
+Domain Name System (query)
+    Transaction ID: 0x0002
+    Flags: 0x0100 Standard query
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+    [Response In: 306]
+
+No.     Time           Source                Destination           Protocol Length Info
+    306 3.581652       8.8.8.8               45.137.66.176         DNS      160    Standard query response 0x0002 A www.mit.edu CNAME www.mit.edu.edgekey.net CNAME e9566.dscb.akamaiedge.net A 88.221.139.121
+
+Frame 306: 160 bytes on wire (1280 bits), 160 bytes captured (1280 bits) on interface \Device\NPF_{9D8721B6-2FF5-444D-AC76-4B704A1A1780}, id 0
+Ethernet II, Src: HuaweiTe_a1:c5:a9 (18:de:d7:a1:c5:a9), Dst: 52:a1:00:3f:fb:92 (52:a1:00:3f:fb:92)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 45.137.66.176
+User Datagram Protocol, Src Port: 53, Dst Port: 60665
+Domain Name System (response)
+    Transaction ID: 0x0002
+    Flags: 0x8180 Standard query response, No error
+    Questions: 1
+    Answer RRs: 3
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+    Answers
+        www.mit.edu: type CNAME, class IN, cname www.mit.edu.edgekey.net
+        www.mit.edu.edgekey.net: type CNAME, class IN, cname e9566.dscb.akamaiedge.net
+        e9566.dscb.akamaiedge.net: type A, class IN, addr 88.221.139.121
+    [Request In: 305]
+    [Time: 0.022458000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+    308 3.591903       45.137.66.176         8.8.8.8               DNS      71     Standard query 0x0003 AAAA www.mit.edu
+
+Frame 308: 71 bytes on wire (568 bits), 71 bytes captured (568 bits) on interface \Device\NPF_{9D8721B6-2FF5-444D-AC76-4B704A1A1780}, id 0
+Ethernet II, Src: 52:a1:00:3f:fb:92 (52:a1:00:3f:fb:92), Dst: HuaweiTe_a1:c5:a9 (18:de:d7:a1:c5:a9)
+Internet Protocol Version 4, Src: 45.137.66.176, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 60666, Dst Port: 53
+Domain Name System (query)
+    Transaction ID: 0x0003
+    Flags: 0x0100 Standard query
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+    [Response In: 310]
+
+No.     Time           Source                Destination           Protocol Length Info
+    310 3.622295       8.8.8.8               45.137.66.176         DNS      200    Standard query response 0x0003 AAAA www.mit.edu CNAME www.mit.edu.edgekey.net CNAME e9566.dscb.akamaiedge.net AAAA 2a02:26f0:b200:18d::255e AAAA 2a02:26f0:b200:1be::255e
+
+Frame 310: 200 bytes on wire (1600 bits), 200 bytes captured (1600 bits) on interface \Device\NPF_{9D8721B6-2FF5-444D-AC76-4B704A1A1780}, id 0
+Ethernet II, Src: HuaweiTe_a1:c5:a9 (18:de:d7:a1:c5:a9), Dst: 52:a1:00:3f:fb:92 (52:a1:00:3f:fb:92)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 45.137.66.176
+User Datagram Protocol, Src Port: 53, Dst Port: 60666
+Domain Name System (response)
+    Transaction ID: 0x0003
+    Flags: 0x8180 Standard query response, No error
+    Questions: 1
+    Answer RRs: 4
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+    Answers
+        www.mit.edu: type CNAME, class IN, cname www.mit.edu.edgekey.net
+        www.mit.edu.edgekey.net: type CNAME, class IN, cname e9566.dscb.akamaiedge.net
+        e9566.dscb.akamaiedge.net: type AAAA, class IN, addr 2a02:26f0:b200:18d::255e
+        e9566.dscb.akamaiedge.net: type AAAA, class IN, addr 2a02:26f0:b200:1be::255e
+    [Request In: 308]
+    [Time: 0.030392000 seconds]

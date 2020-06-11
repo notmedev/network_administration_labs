@@ -1,0 +1,143 @@
+No.     Time           Source                Destination           Protocol Length Info
+    474 4.869614       45.137.66.176         8.8.8.8               DNS      74     Standard query 0x1549 A www.google.com
+
+Frame 474: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface \Device\NPF_{9D8721B6-2FF5-444D-AC76-4B704A1A1780}, id 0
+Ethernet II, Src: 52:a1:00:3f:fb:92 (52:a1:00:3f:fb:92), Dst: HuaweiTe_a1:c5:a9 (18:de:d7:a1:c5:a9)
+Internet Protocol Version 4, Src: 45.137.66.176, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 64136, Dst Port: 53
+Domain Name System (query)
+    Transaction ID: 0x1549
+    Flags: 0x0100 Standard query
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.google.com: type A, class IN
+            Name: www.google.com
+            [Name Length: 14]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    [Response In: 476]
+
+No.     Time           Source                Destination           Protocol Length Info
+    476 4.877609       8.8.8.8               45.137.66.176         DNS      90     Standard query response 0x1549 A www.google.com A 172.217.17.100
+
+Frame 476: 90 bytes on wire (720 bits), 90 bytes captured (720 bits) on interface \Device\NPF_{9D8721B6-2FF5-444D-AC76-4B704A1A1780}, id 0
+Ethernet II, Src: HuaweiTe_a1:c5:a9 (18:de:d7:a1:c5:a9), Dst: 52:a1:00:3f:fb:92 (52:a1:00:3f:fb:92)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 45.137.66.176
+User Datagram Protocol, Src Port: 53, Dst Port: 64136
+Domain Name System (response)
+    Transaction ID: 0x1549
+    Flags: 0x8180 Standard query response, No error
+    Questions: 1
+    Answer RRs: 1
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.google.com: type A, class IN
+            Name: www.google.com
+            [Name Length: 14]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    Answers
+    [Request In: 474]
+    [Time: 0.007995000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+    618 6.153177       45.137.66.176         8.8.8.8               DNS      72     Standard query 0xd1f0 A www.ietf.org
+
+Frame 618: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface \Device\NPF_{9D8721B6-2FF5-444D-AC76-4B704A1A1780}, id 0
+Ethernet II, Src: 52:a1:00:3f:fb:92 (52:a1:00:3f:fb:92), Dst: HuaweiTe_a1:c5:a9 (18:de:d7:a1:c5:a9)
+Internet Protocol Version 4, Src: 45.137.66.176, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 52878, Dst Port: 53
+Domain Name System (query)
+    Transaction ID: 0xd1f0
+    Flags: 0x0100 Standard query
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.ietf.org: type A, class IN
+            Name: www.ietf.org
+            [Name Length: 12]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    [Response In: 620]
+
+No.     Time           Source                Destination           Protocol Length Info
+    620 6.158814       8.8.8.8               45.137.66.176         DNS      149    Standard query response 0xd1f0 A www.ietf.org CNAME www.ietf.org.cdn.cloudflare.net A 104.20.0.85 A 104.20.1.85
+
+Frame 620: 149 bytes on wire (1192 bits), 149 bytes captured (1192 bits) on interface \Device\NPF_{9D8721B6-2FF5-444D-AC76-4B704A1A1780}, id 0
+Ethernet II, Src: HuaweiTe_a1:c5:a9 (18:de:d7:a1:c5:a9), Dst: 52:a1:00:3f:fb:92 (52:a1:00:3f:fb:92)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 45.137.66.176
+User Datagram Protocol, Src Port: 53, Dst Port: 52878
+Domain Name System (response)
+    Transaction ID: 0xd1f0
+    Flags: 0x8180 Standard query response, No error
+    Questions: 1
+    Answer RRs: 3
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.ietf.org: type A, class IN
+            Name: www.ietf.org
+            [Name Length: 12]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    Answers
+    [Request In: 618]
+    [Time: 0.005637000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+   2223 16.226897      45.137.66.176         8.8.8.8               DNS      78     Standard query 0x88b1 A analytics.ietf.org
+
+Frame 2223: 78 bytes on wire (624 bits), 78 bytes captured (624 bits) on interface \Device\NPF_{9D8721B6-2FF5-444D-AC76-4B704A1A1780}, id 0
+Ethernet II, Src: 52:a1:00:3f:fb:92 (52:a1:00:3f:fb:92), Dst: HuaweiTe_a1:c5:a9 (18:de:d7:a1:c5:a9)
+Internet Protocol Version 4, Src: 45.137.66.176, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 51718, Dst Port: 53
+Domain Name System (query)
+    Transaction ID: 0x88b1
+    Flags: 0x0100 Standard query
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        analytics.ietf.org: type A, class IN
+            Name: analytics.ietf.org
+            [Name Length: 18]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    [Response In: 2228]
+
+No.     Time           Source                Destination           Protocol Length Info
+   2228 16.244937      8.8.8.8               45.137.66.176         DNS      108    Standard query response 0x88b1 A analytics.ietf.org CNAME ietf.org A 4.31.198.44
+
+Frame 2228: 108 bytes on wire (864 bits), 108 bytes captured (864 bits) on interface \Device\NPF_{9D8721B6-2FF5-444D-AC76-4B704A1A1780}, id 0
+Ethernet II, Src: HuaweiTe_a1:c5:a9 (18:de:d7:a1:c5:a9), Dst: 52:a1:00:3f:fb:92 (52:a1:00:3f:fb:92)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 45.137.66.176
+User Datagram Protocol, Src Port: 53, Dst Port: 51718
+Domain Name System (response)
+    Transaction ID: 0x88b1
+    Flags: 0x8180 Standard query response, No error
+    Questions: 1
+    Answer RRs: 2
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        analytics.ietf.org: type A, class IN
+            Name: analytics.ietf.org
+            [Name Length: 18]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    Answers
+    [Request In: 2223]
+    [Time: 0.018040000 seconds]

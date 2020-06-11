@@ -1,0 +1,587 @@
+No.     Time           Source                Destination           Protocol Length Info
+    530 4.858188       45.137.66.176         91.203.144.4          HTTP     512    GET /education/wood_turtle__c__shutterstock.jpg HTTP/1.1 
+
+Frame 530: 512 bytes on wire (4096 bits), 512 bytes captured (4096 bits) on interface \Device\NPF_{9D8721B6-2FF5-444D-AC76-4B704A1A1780}, id 0
+Ethernet II, Src: 52:a1:00:3f:fb:92 (52:a1:00:3f:fb:92), Dst: HuaweiTe_a1:c5:a9 (18:de:d7:a1:c5:a9)
+Internet Protocol Version 4, Src: 45.137.66.176, Dst: 91.203.144.4
+Transmission Control Protocol, Src Port: 51955, Dst Port: 80, Seq: 1, Ack: 1, Len: 458
+    Source Port: 51955
+    Destination Port: 80
+    [Stream index: 14]
+    [TCP Segment Len: 458]
+    Sequence number: 1    (relative sequence number)
+    Sequence number (raw): 602856442
+    [Next sequence number: 459    (relative sequence number)]
+    Acknowledgment number: 1    (relative ack number)
+    Acknowledgment number (raw): 25560333
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 513
+    [Calculated window size: 131328]
+    [Window size scaling factor: 256]
+    Checksum: 0x5ded [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [iRTT: 0.044739000 seconds]
+        [Bytes in flight: 458]
+        [Bytes sent since last PSH flag: 458]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 0.082103000 seconds]
+        [Time since previous frame in this TCP stream: 0.037364000 seconds]
+    TCP payload (458 bytes)
+Hypertext Transfer Protocol
+    GET /education/wood_turtle__c__shutterstock.jpg HTTP/1.1\r\n
+        [Expert Info (Chat/Sequence): GET /education/wood_turtle__c__shutterstock.jpg HTTP/1.1\r\n]
+            [GET /education/wood_turtle__c__shutterstock.jpg HTTP/1.1\r\n]
+            [Severity level: Chat]
+            [Group: Sequence]
+        Request Method: GET
+        Request URI: /education/wood_turtle__c__shutterstock.jpg
+        Request Version: HTTP/1.1
+    Host: devcmd.com\r\n
+    Connection: keep-alive\r\n
+    Upgrade-Insecure-Requests: 1\r\n
+    User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36\r\n
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    Accept-Language: en-US,en;q=0.9\r\n
+    \r\n
+    [Full request URI: http://devcmd.com/education/wood_turtle__c__shutterstock.jpg]
+    [HTTP request 1/2]
+    [Response in frame: 1112]
+    [Next request in frame: 1256]
+
+No.     Time           Source                Destination           Protocol Length Info
+   1112 5.693186       91.203.144.4          45.137.66.176         HTTP     641    HTTP/1.1 200 OK  (JPEG JFIF image)
+
+Frame 1112: 641 bytes on wire (5128 bits), 641 bytes captured (5128 bits) on interface \Device\NPF_{9D8721B6-2FF5-444D-AC76-4B704A1A1780}, id 0
+Ethernet II, Src: HuaweiTe_a1:c5:a9 (18:de:d7:a1:c5:a9), Dst: 52:a1:00:3f:fb:92 (52:a1:00:3f:fb:92)
+Internet Protocol Version 4, Src: 91.203.144.4, Dst: 45.137.66.176
+Transmission Control Protocol, Src Port: 80, Dst Port: 51955, Seq: 449924, Ack: 459, Len: 587
+    Source Port: 80
+    Destination Port: 51955
+    [Stream index: 14]
+    [TCP Segment Len: 587]
+    Sequence number: 449924    (relative sequence number)
+    Sequence number (raw): 26010256
+    [Next sequence number: 450511    (relative sequence number)]
+    Acknowledgment number: 459    (relative ack number)
+    Acknowledgment number (raw): 602856900
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 123
+    [Calculated window size: 15744]
+    [Window size scaling factor: 128]
+    Checksum: 0xb4f2 [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [iRTT: 0.044739000 seconds]
+        [Bytes in flight: 587]
+        [Bytes sent since last PSH flag: 50227]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 0.917101000 seconds]
+        [Time since previous frame in this TCP stream: 0.000071000 seconds]
+    TCP payload (587 bytes)
+    TCP segment data (587 bytes)
+[311 Reassembled TCP Segments (450510 bytes): #534(243), #535(1460), #537(1460), #538(1460), #540(1460), #541(1460), #543(1460), #544(1460), #546(1460), #547(1460), #551(1460), #552(1460), #554(1460), #555(1460), #557(1460), #558(1460), #56]
+    [Frame: 534, payload: 0-242 (243 bytes)]
+    [Frame: 535, payload: 243-1702 (1460 bytes)]
+    [Frame: 537, payload: 1703-3162 (1460 bytes)]
+    [Frame: 538, payload: 3163-4622 (1460 bytes)]
+    [Frame: 540, payload: 4623-6082 (1460 bytes)]
+    [Frame: 541, payload: 6083-7542 (1460 bytes)]
+    [Frame: 543, payload: 7543-9002 (1460 bytes)]
+    [Frame: 544, payload: 9003-10462 (1460 bytes)]
+    [Frame: 546, payload: 10463-11922 (1460 bytes)]
+    [Frame: 547, payload: 11923-13382 (1460 bytes)]
+    [Frame: 551, payload: 13383-14842 (1460 bytes)]
+    [Frame: 552, payload: 14843-16302 (1460 bytes)]
+    [Frame: 554, payload: 16303-17762 (1460 bytes)]
+    [Frame: 555, payload: 17763-19222 (1460 bytes)]
+    [Frame: 557, payload: 19223-20682 (1460 bytes)]
+    [Frame: 558, payload: 20683-22142 (1460 bytes)]
+    [Frame: 560, payload: 22143-23602 (1460 bytes)]
+    [Frame: 561, payload: 23603-25062 (1460 bytes)]
+    [Frame: 563, payload: 25063-26522 (1460 bytes)]
+    [Frame: 564, payload: 26523-27982 (1460 bytes)]
+    [Frame: 566, payload: 27983-29442 (1460 bytes)]
+    [Frame: 567, payload: 29443-30902 (1460 bytes)]
+    [Frame: 569, payload: 30903-32362 (1460 bytes)]
+    [Frame: 570, payload: 32363-33822 (1460 bytes)]
+    [Frame: 572, payload: 33823-35282 (1460 bytes)]
+    [Frame: 579, payload: 35283-36742 (1460 bytes)]
+    [Frame: 580, payload: 36743-38202 (1460 bytes)]
+    [Frame: 582, payload: 38203-39662 (1460 bytes)]
+    [Frame: 583, payload: 39663-41122 (1460 bytes)]
+    [Frame: 585, payload: 41123-42582 (1460 bytes)]
+    [Frame: 586, payload: 42583-44042 (1460 bytes)]
+    [Frame: 588, payload: 44043-45502 (1460 bytes)]
+    [Frame: 589, payload: 45503-46962 (1460 bytes)]
+    [Frame: 591, payload: 46963-48422 (1460 bytes)]
+    [Frame: 592, payload: 48423-49882 (1460 bytes)]
+    [Frame: 594, payload: 49883-51342 (1460 bytes)]
+    [Frame: 595, payload: 51343-52802 (1460 bytes)]
+    [Frame: 597, payload: 52803-54262 (1460 bytes)]
+    [Frame: 598, payload: 54263-55722 (1460 bytes)]
+    [Frame: 600, payload: 55723-57182 (1460 bytes)]
+    [Frame: 601, payload: 57183-58642 (1460 bytes)]
+    [Frame: 603, payload: 58643-60102 (1460 bytes)]
+    [Frame: 604, payload: 60103-61562 (1460 bytes)]
+    [Frame: 606, payload: 61563-63022 (1460 bytes)]
+    [Frame: 607, payload: 63023-64482 (1460 bytes)]
+    [Frame: 611, payload: 64483-65942 (1460 bytes)]
+    [Frame: 612, payload: 65943-67402 (1460 bytes)]
+    [Frame: 615, payload: 67403-68862 (1460 bytes)]
+    [Frame: 616, payload: 68863-70322 (1460 bytes)]
+    [Frame: 617, payload: 70323-71782 (1460 bytes)]
+    [Frame: 619, payload: 71783-73242 (1460 bytes)]
+    [Frame: 620, payload: 73243-74702 (1460 bytes)]
+    [Frame: 622, payload: 74703-76162 (1460 bytes)]
+    [Frame: 624, payload: 76163-77622 (1460 bytes)]
+    [Frame: 625, payload: 77623-79082 (1460 bytes)]
+    [Frame: 627, payload: 79083-80542 (1460 bytes)]
+    [Frame: 628, payload: 80543-82002 (1460 bytes)]
+    [Frame: 630, payload: 82003-83462 (1460 bytes)]
+    [Frame: 631, payload: 83463-84922 (1460 bytes)]
+    [Frame: 633, payload: 84923-86382 (1460 bytes)]
+    [Frame: 634, payload: 86383-87842 (1460 bytes)]
+    [Frame: 636, payload: 87843-89302 (1460 bytes)]
+    [Frame: 637, payload: 89303-90762 (1460 bytes)]
+    [Frame: 639, payload: 90763-92222 (1460 bytes)]
+    [Frame: 640, payload: 92223-93682 (1460 bytes)]
+    [Frame: 642, payload: 93683-95142 (1460 bytes)]
+    [Frame: 643, payload: 95143-96602 (1460 bytes)]
+    [Frame: 645, payload: 96603-98062 (1460 bytes)]
+    [Frame: 646, payload: 98063-99522 (1460 bytes)]
+    [Frame: 648, payload: 99523-100982 (1460 bytes)]
+    [Frame: 649, payload: 100983-102442 (1460 bytes)]
+    [Frame: 651, payload: 102443-103902 (1460 bytes)]
+    [Frame: 652, payload: 103903-105362 (1460 bytes)]
+    [Frame: 654, payload: 105363-106822 (1460 bytes)]
+    [Frame: 655, payload: 106823-108282 (1460 bytes)]
+    [Frame: 656, payload: 108283-109742 (1460 bytes)]
+    [Frame: 657, payload: 109743-111202 (1460 bytes)]
+    [Frame: 660, payload: 111203-112662 (1460 bytes)]
+    [Frame: 661, payload: 112663-114122 (1460 bytes)]
+    [Frame: 663, payload: 114123-115582 (1460 bytes)]
+    [Frame: 664, payload: 115583-117042 (1460 bytes)]
+    [Frame: 668, payload: 117043-118502 (1460 bytes)]
+    [Frame: 669, payload: 118503-119962 (1460 bytes)]
+    [Frame: 670, payload: 119963-121422 (1460 bytes)]
+    [Frame: 671, payload: 121423-122882 (1460 bytes)]
+    [Frame: 672, payload: 122883-124342 (1460 bytes)]
+    [Frame: 674, payload: 124343-125802 (1460 bytes)]
+    [Frame: 676, payload: 125803-127262 (1460 bytes)]
+    [Frame: 677, payload: 127263-128722 (1460 bytes)]
+    [Frame: 679, payload: 128723-130182 (1460 bytes)]
+    [Frame: 680, payload: 130183-131642 (1460 bytes)]
+    [Frame: 681, payload: 131643-133102 (1460 bytes)]
+    [Frame: 682, payload: 133103-134562 (1460 bytes)]
+    [Frame: 684, payload: 134563-136022 (1460 bytes)]
+    [Frame: 685, payload: 136023-137482 (1460 bytes)]
+    [Frame: 687, payload: 137483-138942 (1460 bytes)]
+    [Frame: 688, payload: 138943-140402 (1460 bytes)]
+    [Frame: 690, payload: 140403-141862 (1460 bytes)]
+    [Frame: 691, payload: 141863-143322 (1460 bytes)]
+    [Frame: 693, payload: 143323-144782 (1460 bytes)]
+    [Frame: 694, payload: 144783-146242 (1460 bytes)]
+    [Frame: 696, payload: 146243-147702 (1460 bytes)]
+    [Frame: 697, payload: 147703-149162 (1460 bytes)]
+    [Frame: 699, payload: 149163-150622 (1460 bytes)]
+    [Frame: 700, payload: 150623-152082 (1460 bytes)]
+    [Frame: 702, payload: 152083-153542 (1460 bytes)]
+    [Frame: 703, payload: 153543-155002 (1460 bytes)]
+    [Frame: 705, payload: 155003-156462 (1460 bytes)]
+    [Frame: 706, payload: 156463-157922 (1460 bytes)]
+    [Frame: 708, payload: 157923-159382 (1460 bytes)]
+    [Frame: 709, payload: 159383-160842 (1460 bytes)]
+    [Frame: 711, payload: 160843-162302 (1460 bytes)]
+    [Frame: 712, payload: 162303-163762 (1460 bytes)]
+    [Frame: 714, payload: 163763-165222 (1460 bytes)]
+    [Frame: 715, payload: 165223-166682 (1460 bytes)]
+    [Frame: 717, payload: 166683-168142 (1460 bytes)]
+    [Frame: 718, payload: 168143-169602 (1460 bytes)]
+    [Frame: 720, payload: 169603-171062 (1460 bytes)]
+    [Frame: 721, payload: 171063-172522 (1460 bytes)]
+    [Frame: 723, payload: 172523-173982 (1460 bytes)]
+    [Frame: 724, payload: 173983-175442 (1460 bytes)]
+    [Frame: 726, payload: 175443-176902 (1460 bytes)]
+    [Frame: 727, payload: 176903-178362 (1460 bytes)]
+    [Frame: 729, payload: 178363-179822 (1460 bytes)]
+    [Frame: 730, payload: 179823-181282 (1460 bytes)]
+    [Frame: 743, payload: 181283-182742 (1460 bytes)]
+    [Frame: 744, payload: 182743-184202 (1460 bytes)]
+    [Frame: 745, payload: 184203-185662 (1460 bytes)]
+    [Frame: 746, payload: 185663-187122 (1460 bytes)]
+    [Frame: 747, payload: 187123-188582 (1460 bytes)]
+    [Frame: 748, payload: 188583-190042 (1460 bytes)]
+    [Frame: 750, payload: 190043-191502 (1460 bytes)]
+    [Frame: 751, payload: 191503-192962 (1460 bytes)]
+    [Frame: 753, payload: 192963-194422 (1460 bytes)]
+    [Frame: 754, payload: 194423-195882 (1460 bytes)]
+    [Frame: 756, payload: 195883-197342 (1460 bytes)]
+    [Frame: 757, payload: 197343-198802 (1460 bytes)]
+    [Frame: 759, payload: 198803-200262 (1460 bytes)]
+    [Frame: 760, payload: 200263-201722 (1460 bytes)]
+    [Frame: 762, payload: 201723-203182 (1460 bytes)]
+    [Frame: 763, payload: 203183-204642 (1460 bytes)]
+    [Frame: 765, payload: 204643-206102 (1460 bytes)]
+    [Frame: 766, payload: 206103-207562 (1460 bytes)]
+    [Frame: 768, payload: 207563-209022 (1460 bytes)]
+    [Frame: 769, payload: 209023-210482 (1460 bytes)]
+    [Frame: 771, payload: 210483-211942 (1460 bytes)]
+    [Frame: 772, payload: 211943-213402 (1460 bytes)]
+    [Frame: 774, payload: 213403-214862 (1460 bytes)]
+    [Frame: 775, payload: 214863-216322 (1460 bytes)]
+    [Frame: 777, payload: 216323-217782 (1460 bytes)]
+    [Frame: 778, payload: 217783-219242 (1460 bytes)]
+    [Frame: 780, payload: 219243-220702 (1460 bytes)]
+    [Frame: 781, payload: 220703-222162 (1460 bytes)]
+    [Frame: 783, payload: 222163-223622 (1460 bytes)]
+    [Frame: 784, payload: 223623-225082 (1460 bytes)]
+    [Frame: 786, payload: 225083-226542 (1460 bytes)]
+    [Frame: 787, payload: 226543-228002 (1460 bytes)]
+    [Frame: 789, payload: 228003-229462 (1460 bytes)]
+    [Frame: 790, payload: 229463-230922 (1460 bytes)]
+    [Frame: 792, payload: 230923-232382 (1460 bytes)]
+    [Frame: 793, payload: 232383-233842 (1460 bytes)]
+    [Frame: 795, payload: 233843-235302 (1460 bytes)]
+    [Frame: 796, payload: 235303-236762 (1460 bytes)]
+    [Frame: 798, payload: 236763-238222 (1460 bytes)]
+    [Frame: 799, payload: 238223-239682 (1460 bytes)]
+    [Frame: 801, payload: 239683-241142 (1460 bytes)]
+    [Frame: 802, payload: 241143-242602 (1460 bytes)]
+    [Frame: 804, payload: 242603-244062 (1460 bytes)]
+    [Frame: 805, payload: 244063-245522 (1460 bytes)]
+    [Frame: 807, payload: 245523-246982 (1460 bytes)]
+    [Frame: 808, payload: 246983-248442 (1460 bytes)]
+    [Frame: 810, payload: 248443-249902 (1460 bytes)]
+    [Frame: 811, payload: 249903-251362 (1460 bytes)]
+    [Frame: 813, payload: 251363-252822 (1460 bytes)]
+    [Frame: 814, payload: 252823-254282 (1460 bytes)]
+    [Frame: 816, payload: 254283-255742 (1460 bytes)]
+    [Frame: 817, payload: 255743-257202 (1460 bytes)]
+    [Frame: 819, payload: 257203-258662 (1460 bytes)]
+    [Frame: 820, payload: 258663-260122 (1460 bytes)]
+    [Frame: 822, payload: 260123-261582 (1460 bytes)]
+    [Frame: 823, payload: 261583-263042 (1460 bytes)]
+    [Frame: 825, payload: 263043-264502 (1460 bytes)]
+    [Frame: 826, payload: 264503-265962 (1460 bytes)]
+    [Frame: 828, payload: 265963-267422 (1460 bytes)]
+    [Frame: 829, payload: 267423-268882 (1460 bytes)]
+    [Frame: 831, payload: 268883-270342 (1460 bytes)]
+    [Frame: 832, payload: 270343-271802 (1460 bytes)]
+    [Frame: 834, payload: 271803-273262 (1460 bytes)]
+    [Frame: 835, payload: 273263-274722 (1460 bytes)]
+    [Frame: 837, payload: 274723-276182 (1460 bytes)]
+    [Frame: 838, payload: 276183-277642 (1460 bytes)]
+    [Frame: 840, payload: 277643-279102 (1460 bytes)]
+    [Frame: 841, payload: 279103-280562 (1460 bytes)]
+    [Frame: 843, payload: 280563-282022 (1460 bytes)]
+    [Frame: 844, payload: 282023-283482 (1460 bytes)]
+    [Frame: 846, payload: 283483-284942 (1460 bytes)]
+    [Frame: 847, payload: 284943-286402 (1460 bytes)]
+    [Frame: 849, payload: 286403-287862 (1460 bytes)]
+    [Frame: 850, payload: 287863-289322 (1460 bytes)]
+    [Frame: 852, payload: 289323-290782 (1460 bytes)]
+    [Frame: 853, payload: 290783-292242 (1460 bytes)]
+    [Frame: 855, payload: 292243-293702 (1460 bytes)]
+    [Frame: 856, payload: 293703-295162 (1460 bytes)]
+    [Frame: 858, payload: 295163-296622 (1460 bytes)]
+    [Frame: 859, payload: 296623-298082 (1460 bytes)]
+    [Frame: 861, payload: 298083-299542 (1460 bytes)]
+    [Frame: 862, payload: 299543-301002 (1460 bytes)]
+    [Frame: 864, payload: 301003-302462 (1460 bytes)]
+    [Frame: 865, payload: 302463-303922 (1460 bytes)]
+    [Frame: 867, payload: 303923-305382 (1460 bytes)]
+    [Frame: 868, payload: 305383-306842 (1460 bytes)]
+    [Frame: 870, payload: 306843-308302 (1460 bytes)]
+    [Frame: 871, payload: 308303-309762 (1460 bytes)]
+    [Frame: 873, payload: 309763-311222 (1460 bytes)]
+    [Frame: 874, payload: 311223-312682 (1460 bytes)]
+    [Frame: 919, payload: 312683-313962 (1280 bytes)]
+    [Frame: 963, payload: 313963-315422 (1460 bytes)]
+    [Frame: 964, payload: 315423-315602 (180 bytes)]
+    [Frame: 966, payload: 315603-317062 (1460 bytes)]
+    [Frame: 967, payload: 317063-318522 (1460 bytes)]
+    [Frame: 969, payload: 318523-319982 (1460 bytes)]
+    [Frame: 970, payload: 319983-321442 (1460 bytes)]
+    [Frame: 972, payload: 321443-322902 (1460 bytes)]
+    [Frame: 973, payload: 322903-324362 (1460 bytes)]
+    [Frame: 975, payload: 324363-325822 (1460 bytes)]
+    [Frame: 976, payload: 325823-327282 (1460 bytes)]
+    [Frame: 978, payload: 327283-328742 (1460 bytes)]
+    [Frame: 979, payload: 328743-330202 (1460 bytes)]
+    [Frame: 980, payload: 330203-331662 (1460 bytes)]
+    [Frame: 981, payload: 331663-333122 (1460 bytes)]
+    [Frame: 982, payload: 333123-334582 (1460 bytes)]
+    [Frame: 984, payload: 334583-336042 (1460 bytes)]
+    [Frame: 985, payload: 336043-337502 (1460 bytes)]
+    [Frame: 986, payload: 337503-338962 (1460 bytes)]
+    [Frame: 988, payload: 338963-340422 (1460 bytes)]
+    [Frame: 989, payload: 340423-341882 (1460 bytes)]
+    [Frame: 990, payload: 341883-343342 (1460 bytes)]
+    [Frame: 991, payload: 343343-344802 (1460 bytes)]
+    [Frame: 992, payload: 344803-346262 (1460 bytes)]
+    [Frame: 994, payload: 346263-347722 (1460 bytes)]
+    [Frame: 996, payload: 347723-349182 (1460 bytes)]
+    [Frame: 997, payload: 349183-350642 (1460 bytes)]
+    [Frame: 999, payload: 350643-352102 (1460 bytes)]
+    [Frame: 1000, payload: 352103-353562 (1460 bytes)]
+    [Frame: 1001, payload: 353563-355022 (1460 bytes)]
+    [Frame: 1003, payload: 355023-356482 (1460 bytes)]
+    [Frame: 1005, payload: 356483-357942 (1460 bytes)]
+    [Frame: 1006, payload: 357943-359402 (1460 bytes)]
+    [Frame: 1008, payload: 359403-360862 (1460 bytes)]
+    [Frame: 1009, payload: 360863-362322 (1460 bytes)]
+    [Frame: 1011, payload: 362323-363782 (1460 bytes)]
+    [Frame: 1012, payload: 363783-365242 (1460 bytes)]
+    [Frame: 1014, payload: 365243-366702 (1460 bytes)]
+    [Frame: 1015, payload: 366703-368162 (1460 bytes)]
+    [Frame: 1016, payload: 368163-369622 (1460 bytes)]
+    [Frame: 1018, payload: 369623-371082 (1460 bytes)]
+    [Frame: 1020, payload: 371083-372542 (1460 bytes)]
+    [Frame: 1021, payload: 372543-374002 (1460 bytes)]
+    [Frame: 1032, payload: 374003-375462 (1460 bytes)]
+    [Frame: 1033, payload: 375463-376922 (1460 bytes)]
+    [Frame: 1034, payload: 376923-378382 (1460 bytes)]
+    [Frame: 1035, payload: 378383-379842 (1460 bytes)]
+    [Frame: 1036, payload: 379843-381302 (1460 bytes)]
+    [Frame: 1037, payload: 381303-382762 (1460 bytes)]
+    [Frame: 1039, payload: 382763-384222 (1460 bytes)]
+    [Frame: 1041, payload: 384223-385682 (1460 bytes)]
+    [Frame: 1043, payload: 385683-387142 (1460 bytes)]
+    [Frame: 1044, payload: 387143-388602 (1460 bytes)]
+    [Frame: 1046, payload: 388603-390062 (1460 bytes)]
+    [Frame: 1047, payload: 390063-391522 (1460 bytes)]
+    [Frame: 1050, payload: 391523-392982 (1460 bytes)]
+    [Frame: 1051, payload: 392983-394442 (1460 bytes)]
+    [Frame: 1053, payload: 394443-395902 (1460 bytes)]
+    [Frame: 1054, payload: 395903-397362 (1460 bytes)]
+    [Frame: 1056, payload: 397363-398822 (1460 bytes)]
+    [Frame: 1057, payload: 398823-400282 (1460 bytes)]
+    [Frame: 1059, payload: 400283-401742 (1460 bytes)]
+    [Frame: 1060, payload: 401743-403202 (1460 bytes)]
+    [Frame: 1062, payload: 403203-404662 (1460 bytes)]
+    [Frame: 1063, payload: 404663-406122 (1460 bytes)]
+    [Frame: 1065, payload: 406123-407582 (1460 bytes)]
+    [Frame: 1066, payload: 407583-409042 (1460 bytes)]
+    [Frame: 1068, payload: 409043-410502 (1460 bytes)]
+    [Frame: 1071, payload: 410503-411962 (1460 bytes)]
+    [Frame: 1073, payload: 411963-413422 (1460 bytes)]
+    [Frame: 1074, payload: 413423-414882 (1460 bytes)]
+    [Frame: 1076, payload: 414883-416342 (1460 bytes)]
+    [Frame: 1077, payload: 416343-417802 (1460 bytes)]
+    [Frame: 1079, payload: 417803-419262 (1460 bytes)]
+    [Frame: 1080, payload: 419263-420722 (1460 bytes)]
+    [Frame: 1082, payload: 420723-422182 (1460 bytes)]
+    [Frame: 1083, payload: 422183-423642 (1460 bytes)]
+    [Frame: 1085, payload: 423643-425102 (1460 bytes)]
+    [Frame: 1086, payload: 425103-426562 (1460 bytes)]
+    [Frame: 1088, payload: 426563-428022 (1460 bytes)]
+    [Frame: 1089, payload: 428023-429482 (1460 bytes)]
+    [Frame: 1091, payload: 429483-430942 (1460 bytes)]
+    [Frame: 1092, payload: 430943-432402 (1460 bytes)]
+    [Frame: 1094, payload: 432403-433862 (1460 bytes)]
+    [Frame: 1095, payload: 433863-435322 (1460 bytes)]
+    [Frame: 1097, payload: 435323-436782 (1460 bytes)]
+    [Frame: 1098, payload: 436783-438242 (1460 bytes)]
+    [Frame: 1100, payload: 438243-439702 (1460 bytes)]
+    [Frame: 1101, payload: 439703-441162 (1460 bytes)]
+    [Frame: 1103, payload: 441163-442622 (1460 bytes)]
+    [Frame: 1104, payload: 442623-444082 (1460 bytes)]
+    [Frame: 1106, payload: 444083-445542 (1460 bytes)]
+    [Frame: 1107, payload: 445543-447002 (1460 bytes)]
+    [Frame: 1109, payload: 447003-448462 (1460 bytes)]
+    [Frame: 1110, payload: 448463-449922 (1460 bytes)]
+    [Frame: 1112, payload: 449923-450509 (587 bytes)]
+    [Segment count: 311]
+    [Reassembled TCP length: 450510]
+    [Reassembled TCP Data: 485454502f312e3120323030204f4b0d0a5365727665723a…]
+Hypertext Transfer Protocol
+    HTTP/1.1 200 OK\r\n
+        [Expert Info (Chat/Sequence): HTTP/1.1 200 OK\r\n]
+            [HTTP/1.1 200 OK\r\n]
+            [Severity level: Chat]
+            [Group: Sequence]
+        Response Version: HTTP/1.1
+        Status Code: 200
+        [Status Code Description: OK]
+        Response Phrase: OK
+    Server: nginx/1.8.1\r\n
+    Date: Wed, 10 Jun 2020 22:07:52 GMT\r\n
+    Content-Type: image/jpeg\r\n
+    Content-Length: 450267\r\n
+        [Content length: 450267]
+    Last-Modified: Wed, 10 Jun 2020 22:05:15 GMT\r\n
+    Connection: keep-alive\r\n
+    ETag: "5ee1591b-6dedb"\r\n
+    Accept-Ranges: bytes\r\n
+    \r\n
+    [HTTP response 1/2]
+    [Time since request: 0.834998000 seconds]
+    [Request in frame: 530]
+    [Next request in frame: 1256]
+    [Next response in frame: 1330]
+    [Request URI: http://devcmd.com/education/wood_turtle__c__shutterstock.jpg]
+    File Data: 450267 bytes
+JPEG File Interchange Format
+
+No.     Time           Source                Destination           Protocol Length Info
+   1256 6.056227       45.137.66.176         91.203.144.4          HTTP     437    GET /favicon.ico HTTP/1.1 
+
+Frame 1256: 437 bytes on wire (3496 bits), 437 bytes captured (3496 bits) on interface \Device\NPF_{9D8721B6-2FF5-444D-AC76-4B704A1A1780}, id 0
+Ethernet II, Src: 52:a1:00:3f:fb:92 (52:a1:00:3f:fb:92), Dst: HuaweiTe_a1:c5:a9 (18:de:d7:a1:c5:a9)
+Internet Protocol Version 4, Src: 45.137.66.176, Dst: 91.203.144.4
+Transmission Control Protocol, Src Port: 51955, Dst Port: 80, Seq: 459, Ack: 450511, Len: 383
+    Source Port: 51955
+    Destination Port: 80
+    [Stream index: 14]
+    [TCP Segment Len: 383]
+    Sequence number: 459    (relative sequence number)
+    Sequence number (raw): 602856900
+    [Next sequence number: 842    (relative sequence number)]
+    Acknowledgment number: 450511    (relative ack number)
+    Acknowledgment number (raw): 26010843
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 1623
+    [Calculated window size: 415488]
+    [Window size scaling factor: 256]
+    Checksum: 0x5da2 [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [iRTT: 0.044739000 seconds]
+        [Bytes in flight: 383]
+        [Bytes sent since last PSH flag: 383]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 1.280142000 seconds]
+        [Time since previous frame in this TCP stream: 0.345895000 seconds]
+    TCP payload (383 bytes)
+Hypertext Transfer Protocol
+    GET /favicon.ico HTTP/1.1\r\n
+        [Expert Info (Chat/Sequence): GET /favicon.ico HTTP/1.1\r\n]
+            [GET /favicon.ico HTTP/1.1\r\n]
+            [Severity level: Chat]
+            [Group: Sequence]
+        Request Method: GET
+        Request URI: /favicon.ico
+        Request Version: HTTP/1.1
+    Host: devcmd.com\r\n
+    Connection: keep-alive\r\n
+    User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36\r\n
+    Accept: image/webp,image/apng,image/*,*/*;q=0.8\r\n
+    Referer: http://devcmd.com/education/wood_turtle__c__shutterstock.jpg\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    Accept-Language: en-US,en;q=0.9\r\n
+    \r\n
+    [Full request URI: http://devcmd.com/favicon.ico]
+    [HTTP request 2/2]
+    [Prev request in frame: 530]
+    [Response in frame: 1330]
+
+No.     Time           Source                Destination           Protocol Length Info
+   1330 6.106987       91.203.144.4          45.137.66.176         HTTP     240    HTTP/1.1 200 OK 
+
+Frame 1330: 240 bytes on wire (1920 bits), 240 bytes captured (1920 bits) on interface \Device\NPF_{9D8721B6-2FF5-444D-AC76-4B704A1A1780}, id 0
+Ethernet II, Src: HuaweiTe_a1:c5:a9 (18:de:d7:a1:c5:a9), Dst: 52:a1:00:3f:fb:92 (52:a1:00:3f:fb:92)
+Internet Protocol Version 4, Src: 91.203.144.4, Dst: 45.137.66.176
+Transmission Control Protocol, Src Port: 80, Dst Port: 51955, Seq: 450511, Ack: 842, Len: 186
+    Source Port: 80
+    Destination Port: 51955
+    [Stream index: 14]
+    [TCP Segment Len: 186]
+    Sequence number: 450511    (relative sequence number)
+    Sequence number (raw): 26010843
+    [Next sequence number: 450697    (relative sequence number)]
+    Acknowledgment number: 842    (relative ack number)
+    Acknowledgment number (raw): 602857283
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 131
+    [Calculated window size: 16768]
+    [Window size scaling factor: 128]
+    Checksum: 0x9f13 [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 1256]
+        [The RTT to ACK the segment was: 0.050760000 seconds]
+        [iRTT: 0.044739000 seconds]
+        [Bytes in flight: 186]
+        [Bytes sent since last PSH flag: 186]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 1.330902000 seconds]
+        [Time since previous frame in this TCP stream: 0.050760000 seconds]
+    TCP payload (186 bytes)
+Hypertext Transfer Protocol
+    HTTP/1.1 200 OK\r\n
+        [Expert Info (Chat/Sequence): HTTP/1.1 200 OK\r\n]
+            [HTTP/1.1 200 OK\r\n]
+            [Severity level: Chat]
+            [Group: Sequence]
+        Response Version: HTTP/1.1
+        Status Code: 200
+        [Status Code Description: OK]
+        Response Phrase: OK
+    Server: nginx/1.8.1\r\n
+    Date: Wed, 10 Jun 2020 22:07:53 GMT\r\n
+    Content-Type: image/vnd.microsoft.icon\r\n
+    Content-Length: 0\r\n
+        [Content length: 0]
+    Connection: keep-alive\r\n
+    X-Powered-By: PHP/5.4.45\r\n
+    \r\n
+    [HTTP response 2/2]
+    [Time since request: 0.050760000 seconds]
+    [Prev request in frame: 530]
+    [Prev response in frame: 1112]
+    [Request in frame: 1256]
+    [Request URI: http://devcmd.com/favicon.ico]

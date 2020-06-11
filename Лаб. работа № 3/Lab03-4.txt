@@ -1,0 +1,280 @@
+No.     Time           Source                Destination           Protocol Length Info
+    155 2.327453       45.137.66.176         8.8.8.8               DNS      73     Standard query 0x9dae A bitsy.mit.edu
+
+Frame 155: 73 bytes on wire (584 bits), 73 bytes captured (584 bits) on interface \Device\NPF_{9D8721B6-2FF5-444D-AC76-4B704A1A1780}, id 0
+Ethernet II, Src: 52:a1:00:3f:fb:92 (52:a1:00:3f:fb:92), Dst: HuaweiTe_a1:c5:a9 (18:de:d7:a1:c5:a9)
+Internet Protocol Version 4, Src: 45.137.66.176, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 60318, Dst Port: 53
+Domain Name System (query)
+    Transaction ID: 0x9dae
+    Flags: 0x0100 Standard query
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        bitsy.mit.edu: type A, class IN
+            Name: bitsy.mit.edu
+            [Name Length: 13]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    [Response In: 157]
+
+No.     Time           Source                Destination           Protocol Length Info
+    156 2.328834       45.137.66.176         8.8.8.8               DNS      73     Standard query 0xb798 AAAA bitsy.mit.edu
+
+Frame 156: 73 bytes on wire (584 bits), 73 bytes captured (584 bits) on interface \Device\NPF_{9D8721B6-2FF5-444D-AC76-4B704A1A1780}, id 0
+Ethernet II, Src: 52:a1:00:3f:fb:92 (52:a1:00:3f:fb:92), Dst: HuaweiTe_a1:c5:a9 (18:de:d7:a1:c5:a9)
+Internet Protocol Version 4, Src: 45.137.66.176, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 57319, Dst Port: 53
+Domain Name System (query)
+    Transaction ID: 0xb798
+    Flags: 0x0100 Standard query
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        bitsy.mit.edu: type AAAA, class IN
+            Name: bitsy.mit.edu
+            [Name Length: 13]
+            [Label Count: 3]
+            Type: AAAA (IPv6 Address) (28)
+            Class: IN (0x0001)
+    [Response In: 158]
+
+No.     Time           Source                Destination           Protocol Length Info
+    157 2.335359       8.8.8.8               45.137.66.176         DNS      89     Standard query response 0x9dae A bitsy.mit.edu A 18.0.72.3
+
+Frame 157: 89 bytes on wire (712 bits), 89 bytes captured (712 bits) on interface \Device\NPF_{9D8721B6-2FF5-444D-AC76-4B704A1A1780}, id 0
+Ethernet II, Src: HuaweiTe_a1:c5:a9 (18:de:d7:a1:c5:a9), Dst: 52:a1:00:3f:fb:92 (52:a1:00:3f:fb:92)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 45.137.66.176
+User Datagram Protocol, Src Port: 53, Dst Port: 60318
+Domain Name System (response)
+    Transaction ID: 0x9dae
+    Flags: 0x8180 Standard query response, No error
+    Questions: 1
+    Answer RRs: 1
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        bitsy.mit.edu: type A, class IN
+            Name: bitsy.mit.edu
+            [Name Length: 13]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    Answers
+        bitsy.mit.edu: type A, class IN, addr 18.0.72.3
+            Name: bitsy.mit.edu
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 1773 (29 minutes, 33 seconds)
+            Data length: 4
+            Address: 18.0.72.3
+    [Request In: 155]
+    [Time: 0.007906000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+    158 2.339084       8.8.8.8               45.137.66.176         DNS      138    Standard query response 0xb798 AAAA bitsy.mit.edu SOA use2.akam.net
+
+Frame 158: 138 bytes on wire (1104 bits), 138 bytes captured (1104 bits) on interface \Device\NPF_{9D8721B6-2FF5-444D-AC76-4B704A1A1780}, id 0
+Ethernet II, Src: HuaweiTe_a1:c5:a9 (18:de:d7:a1:c5:a9), Dst: 52:a1:00:3f:fb:92 (52:a1:00:3f:fb:92)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 45.137.66.176
+User Datagram Protocol, Src Port: 53, Dst Port: 57319
+Domain Name System (response)
+    Transaction ID: 0xb798
+    Flags: 0x8180 Standard query response, No error
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 1
+    Additional RRs: 0
+    Queries
+        bitsy.mit.edu: type AAAA, class IN
+            Name: bitsy.mit.edu
+            [Name Length: 13]
+            [Label Count: 3]
+            Type: AAAA (IPv6 Address) (28)
+            Class: IN (0x0001)
+    Authoritative nameservers
+        mit.edu: type SOA, class IN, mname use2.akam.net
+            Name: mit.edu
+            Type: SOA (Start Of a zone of Authority) (6)
+            Class: IN (0x0001)
+            Time to live: 1799 (29 minutes, 59 seconds)
+            Data length: 53
+            Primary name server: use2.akam.net
+            Responsible authority's mailbox: network-request.mit.edu
+            Serial Number: 13505
+            Refresh Interval: 900 (15 minutes)
+            Retry Interval: 900 (15 minutes)
+            Expire limit: 3600000 (41 days, 16 hours)
+            Minimum TTL: 3600 (1 hour)
+    [Request In: 156]
+    [Time: 0.010250000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+    163 2.417078       45.137.66.176         18.0.72.3             DNS      82     Standard query 0x0001 PTR 3.72.0.18.in-addr.arpa
+
+Frame 163: 82 bytes on wire (656 bits), 82 bytes captured (656 bits) on interface \Device\NPF_{9D8721B6-2FF5-444D-AC76-4B704A1A1780}, id 0
+Ethernet II, Src: 52:a1:00:3f:fb:92 (52:a1:00:3f:fb:92), Dst: HuaweiTe_a1:c5:a9 (18:de:d7:a1:c5:a9)
+Internet Protocol Version 4, Src: 45.137.66.176, Dst: 18.0.72.3
+User Datagram Protocol, Src Port: 57320, Dst Port: 53
+Domain Name System (query)
+    Transaction ID: 0x0001
+    Flags: 0x0100 Standard query
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        3.72.0.18.in-addr.arpa: type PTR, class IN
+            Name: 3.72.0.18.in-addr.arpa
+            [Name Length: 22]
+            [Label Count: 6]
+            Type: PTR (domain name PoinTeR) (12)
+            Class: IN (0x0001)
+
+No.     Time           Source                Destination           Protocol Length Info
+    251 4.440392       45.137.66.176         18.0.72.3             DNS      74     Standard query 0x0002 A www.aiit.or.kr
+
+Frame 251: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface \Device\NPF_{9D8721B6-2FF5-444D-AC76-4B704A1A1780}, id 0
+Ethernet II, Src: 52:a1:00:3f:fb:92 (52:a1:00:3f:fb:92), Dst: HuaweiTe_a1:c5:a9 (18:de:d7:a1:c5:a9)
+Internet Protocol Version 4, Src: 45.137.66.176, Dst: 18.0.72.3
+User Datagram Protocol, Src Port: 57321, Dst Port: 53
+Domain Name System (query)
+    Transaction ID: 0x0002
+    Flags: 0x0100 Standard query
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.aiit.or.kr: type A, class IN
+            Name: www.aiit.or.kr
+            [Name Length: 14]
+            [Label Count: 4]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+
+No.     Time           Source                Destination           Protocol Length Info
+    361 6.452621       45.137.66.176         18.0.72.3             DNS      74     Standard query 0x0003 AAAA www.aiit.or.kr
+
+Frame 361: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface \Device\NPF_{9D8721B6-2FF5-444D-AC76-4B704A1A1780}, id 0
+Ethernet II, Src: 52:a1:00:3f:fb:92 (52:a1:00:3f:fb:92), Dst: HuaweiTe_a1:c5:a9 (18:de:d7:a1:c5:a9)
+Internet Protocol Version 4, Src: 45.137.66.176, Dst: 18.0.72.3
+User Datagram Protocol, Src Port: 57322, Dst Port: 53
+Domain Name System (query)
+    Transaction ID: 0x0003
+    Flags: 0x0100 Standard query
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.aiit.or.kr: type AAAA, class IN
+            Name: www.aiit.or.kr
+            [Name Length: 14]
+            [Label Count: 4]
+            Type: AAAA (IPv6 Address) (28)
+            Class: IN (0x0001)
+
+No.     Time           Source                Destination           Protocol Length Info
+    458 8.454548       45.137.66.176         18.0.72.3             DNS      74     Standard query 0x0004 A www.aiit.or.kr
+
+Frame 458: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface \Device\NPF_{9D8721B6-2FF5-444D-AC76-4B704A1A1780}, id 0
+Ethernet II, Src: 52:a1:00:3f:fb:92 (52:a1:00:3f:fb:92), Dst: HuaweiTe_a1:c5:a9 (18:de:d7:a1:c5:a9)
+Internet Protocol Version 4, Src: 45.137.66.176, Dst: 18.0.72.3
+User Datagram Protocol, Src Port: 57323, Dst Port: 53
+Domain Name System (query)
+    Transaction ID: 0x0004
+    Flags: 0x0100 Standard query
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.aiit.or.kr: type A, class IN
+            Name: www.aiit.or.kr
+            [Name Length: 14]
+            [Label Count: 4]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+
+No.     Time           Source                Destination           Protocol Length Info
+    540 10.466873      45.137.66.176         18.0.72.3             DNS      74     Standard query 0x0005 AAAA www.aiit.or.kr
+
+Frame 540: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface \Device\NPF_{9D8721B6-2FF5-444D-AC76-4B704A1A1780}, id 0
+Ethernet II, Src: 52:a1:00:3f:fb:92 (52:a1:00:3f:fb:92), Dst: HuaweiTe_a1:c5:a9 (18:de:d7:a1:c5:a9)
+Internet Protocol Version 4, Src: 45.137.66.176, Dst: 18.0.72.3
+User Datagram Protocol, Src Port: 57324, Dst Port: 53
+Domain Name System (query)
+    Transaction ID: 0x0005
+    Flags: 0x0100 Standard query
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.aiit.or.kr: type AAAA, class IN
+            Name: www.aiit.or.kr
+            [Name Length: 14]
+            [Label Count: 4]
+            Type: AAAA (IPv6 Address) (28)
+            Class: IN (0x0001)
+
+No.     Time           Source                Destination           Protocol Length Info
+    690 13.984296      45.137.66.176         8.8.8.8               DNS      87     Standard query 0x67fc A safebrowsing.googleapis.com
+
+Frame 690: 87 bytes on wire (696 bits), 87 bytes captured (696 bits) on interface \Device\NPF_{9D8721B6-2FF5-444D-AC76-4B704A1A1780}, id 0
+Ethernet II, Src: 52:a1:00:3f:fb:92 (52:a1:00:3f:fb:92), Dst: HuaweiTe_a1:c5:a9 (18:de:d7:a1:c5:a9)
+Internet Protocol Version 4, Src: 45.137.66.176, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 64312, Dst Port: 53
+Domain Name System (query)
+    Transaction ID: 0x67fc
+    Flags: 0x0100 Standard query
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        safebrowsing.googleapis.com: type A, class IN
+            Name: safebrowsing.googleapis.com
+            [Name Length: 27]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    [Response In: 691]
+
+No.     Time           Source                Destination           Protocol Length Info
+    691 13.991476      8.8.8.8               45.137.66.176         DNS      103    Standard query response 0x67fc A safebrowsing.googleapis.com A 172.217.17.42
+
+Frame 691: 103 bytes on wire (824 bits), 103 bytes captured (824 bits) on interface \Device\NPF_{9D8721B6-2FF5-444D-AC76-4B704A1A1780}, id 0
+Ethernet II, Src: HuaweiTe_a1:c5:a9 (18:de:d7:a1:c5:a9), Dst: 52:a1:00:3f:fb:92 (52:a1:00:3f:fb:92)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 45.137.66.176
+User Datagram Protocol, Src Port: 53, Dst Port: 64312
+Domain Name System (response)
+    Transaction ID: 0x67fc
+    Flags: 0x8180 Standard query response, No error
+    Questions: 1
+    Answer RRs: 1
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        safebrowsing.googleapis.com: type A, class IN
+            Name: safebrowsing.googleapis.com
+            [Name Length: 27]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    Answers
+        safebrowsing.googleapis.com: type A, class IN, addr 172.217.17.42
+            Name: safebrowsing.googleapis.com
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 299 (4 minutes, 59 seconds)
+            Data length: 4
+            Address: 172.217.17.42
+    [Request In: 690]
+    [Time: 0.007180000 seconds]

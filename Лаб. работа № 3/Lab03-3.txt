@@ -1,0 +1,182 @@
+No.     Time           Source                Destination           Protocol Length Info
+    401 5.309614       45.137.66.176         8.8.8.8               DNS      67     Standard query 0x800d A mit.edu
+
+Frame 401: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface \Device\NPF_{9D8721B6-2FF5-444D-AC76-4B704A1A1780}, id 0
+Ethernet II, Src: 52:a1:00:3f:fb:92 (52:a1:00:3f:fb:92), Dst: HuaweiTe_a1:c5:a9 (18:de:d7:a1:c5:a9)
+Internet Protocol Version 4, Src: 45.137.66.176, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 61119, Dst Port: 53
+Domain Name System (query)
+    Transaction ID: 0x800d
+    Flags: 0x0100 Standard query
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        mit.edu: type A, class IN
+            Name: mit.edu
+            [Name Length: 7]
+            [Label Count: 2]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    [Response In: 404]
+
+No.     Time           Source                Destination           Protocol Length Info
+    402 5.310638       45.137.66.176         8.8.8.8               DNS      67     Standard query 0x0182 AAAA mit.edu
+
+Frame 402: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface \Device\NPF_{9D8721B6-2FF5-444D-AC76-4B704A1A1780}, id 0
+Ethernet II, Src: 52:a1:00:3f:fb:92 (52:a1:00:3f:fb:92), Dst: HuaweiTe_a1:c5:a9 (18:de:d7:a1:c5:a9)
+Internet Protocol Version 4, Src: 45.137.66.176, Dst: 8.8.8.8
+User Datagram Protocol, Src Port: 64311, Dst Port: 53
+Domain Name System (query)
+    Transaction ID: 0x0182
+    Flags: 0x0100 Standard query
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        mit.edu: type AAAA, class IN
+            Name: mit.edu
+            [Name Length: 7]
+            [Label Count: 2]
+            Type: AAAA (IPv6 Address) (28)
+            Class: IN (0x0001)
+    [Response In: 405]
+
+No.     Time           Source                Destination           Protocol Length Info
+    404 5.320824       8.8.8.8               45.137.66.176         DNS      83     Standard query response 0x800d A mit.edu A 88.221.9.235
+
+Frame 404: 83 bytes on wire (664 bits), 83 bytes captured (664 bits) on interface \Device\NPF_{9D8721B6-2FF5-444D-AC76-4B704A1A1780}, id 0
+Ethernet II, Src: HuaweiTe_a1:c5:a9 (18:de:d7:a1:c5:a9), Dst: 52:a1:00:3f:fb:92 (52:a1:00:3f:fb:92)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 45.137.66.176
+User Datagram Protocol, Src Port: 53, Dst Port: 61119
+Domain Name System (response)
+    Transaction ID: 0x800d
+    Flags: 0x8180 Standard query response, No error
+    Questions: 1
+    Answer RRs: 1
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        mit.edu: type A, class IN
+            Name: mit.edu
+            [Name Length: 7]
+            [Label Count: 2]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    Answers
+        mit.edu: type A, class IN, addr 88.221.9.235
+            Name: mit.edu
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 19 (19 seconds)
+            Data length: 4
+            Address: 88.221.9.235
+    [Request In: 401]
+    [Time: 0.011210000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+    405 5.334197       8.8.8.8               45.137.66.176         DNS      123    Standard query response 0x0182 AAAA mit.edu AAAA 2a02:26f0:de:288::255e AAAA 2a02:26f0:de:28a::255e
+
+Frame 405: 123 bytes on wire (984 bits), 123 bytes captured (984 bits) on interface \Device\NPF_{9D8721B6-2FF5-444D-AC76-4B704A1A1780}, id 0
+Ethernet II, Src: HuaweiTe_a1:c5:a9 (18:de:d7:a1:c5:a9), Dst: 52:a1:00:3f:fb:92 (52:a1:00:3f:fb:92)
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 45.137.66.176
+User Datagram Protocol, Src Port: 53, Dst Port: 64311
+Domain Name System (response)
+    Transaction ID: 0x0182
+    Flags: 0x8180 Standard query response, No error
+    Questions: 1
+    Answer RRs: 2
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        mit.edu: type AAAA, class IN
+            Name: mit.edu
+            [Name Length: 7]
+            [Label Count: 2]
+            Type: AAAA (IPv6 Address) (28)
+            Class: IN (0x0001)
+    Answers
+        mit.edu: type AAAA, class IN, addr 2a02:26f0:de:288::255e
+            Name: mit.edu
+            Type: AAAA (IPv6 Address) (28)
+            Class: IN (0x0001)
+            Time to live: 19 (19 seconds)
+            Data length: 16
+            AAAA Address: 2a02:26f0:de:288::255e
+        mit.edu: type AAAA, class IN, addr 2a02:26f0:de:28a::255e
+            Name: mit.edu
+            Type: AAAA (IPv6 Address) (28)
+            Class: IN (0x0001)
+            Time to live: 19 (19 seconds)
+            Data length: 16
+            AAAA Address: 2a02:26f0:de:28a::255e
+    [Request In: 402]
+    [Time: 0.023559000 seconds]
+
+No.     Time           Source                Destination           Protocol Length Info
+    407 5.343271       45.137.66.176         88.221.9.235          DNS      85     Standard query 0x0001 PTR 235.9.221.88.in-addr.arpa
+
+Frame 407: 85 bytes on wire (680 bits), 85 bytes captured (680 bits) on interface \Device\NPF_{9D8721B6-2FF5-444D-AC76-4B704A1A1780}, id 0
+Ethernet II, Src: 52:a1:00:3f:fb:92 (52:a1:00:3f:fb:92), Dst: HuaweiTe_a1:c5:a9 (18:de:d7:a1:c5:a9)
+Internet Protocol Version 4, Src: 45.137.66.176, Dst: 88.221.9.235
+User Datagram Protocol, Src Port: 64312, Dst Port: 53
+Domain Name System (query)
+    Transaction ID: 0x0001
+    Flags: 0x0100 Standard query
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        235.9.221.88.in-addr.arpa: type PTR, class IN
+            Name: 235.9.221.88.in-addr.arpa
+            [Name Length: 25]
+            [Label Count: 6]
+            Type: PTR (domain name PoinTeR) (12)
+            Class: IN (0x0001)
+
+No.     Time           Source                Destination           Protocol Length Info
+    478 7.340242       45.137.66.176         88.221.9.235          DNS      68     Standard query 0x0002 A �type=NS
+
+Frame 478: 68 bytes on wire (544 bits), 68 bytes captured (544 bits) on interface \Device\NPF_{9D8721B6-2FF5-444D-AC76-4B704A1A1780}, id 0
+Ethernet II, Src: 52:a1:00:3f:fb:92 (52:a1:00:3f:fb:92), Dst: HuaweiTe_a1:c5:a9 (18:de:d7:a1:c5:a9)
+Internet Protocol Version 4, Src: 45.137.66.176, Dst: 88.221.9.235
+User Datagram Protocol, Src Port: 64313, Dst Port: 53
+Domain Name System (query)
+    Transaction ID: 0x0002
+    Flags: 0x0100 Standard query
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        �type=NS: type A, class IN
+            Name: �type=NS
+            [Name Length: 8]
+            [Label Count: 1]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+
+No.     Time           Source                Destination           Protocol Length Info
+    584 9.339037       45.137.66.176         88.221.9.235          DNS      68     Standard query 0x0003 AAAA �type=NS
+
+Frame 584: 68 bytes on wire (544 bits), 68 bytes captured (544 bits) on interface \Device\NPF_{9D8721B6-2FF5-444D-AC76-4B704A1A1780}, id 0
+Ethernet II, Src: 52:a1:00:3f:fb:92 (52:a1:00:3f:fb:92), Dst: HuaweiTe_a1:c5:a9 (18:de:d7:a1:c5:a9)
+Internet Protocol Version 4, Src: 45.137.66.176, Dst: 88.221.9.235
+User Datagram Protocol, Src Port: 64314, Dst Port: 53
+Domain Name System (query)
+    Transaction ID: 0x0003
+    Flags: 0x0100 Standard query
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        �type=NS: type AAAA, class IN
+            Name: �type=NS
+            [Name Length: 8]
+            [Label Count: 1]
+            Type: AAAA (IPv6 Address) (28)
+            Class: IN (0x0001)
